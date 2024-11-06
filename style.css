@@ -1,0 +1,49 @@
+body{
+    background-color: bisque;
+    font-family: 'Courier New';
+    margin: 0;
+}
+
+.container{
+    text-align: center;
+    margin: 0;
+}
+
+p.text1{
+    padding: 10px;
+    text-align: left;
+}
+
+.container img{
+    height: 80px;
+}
+
+.box{
+    border-collapse: collapse;
+    display: flex;
+    justify-content: center;
+    border-image: fill;
+}
+
+.box img{
+    height: 200px;
+}
+
+.botton{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.botton a{
+    background-color: #00FFFF; /* Change button color to your preference */
+    color: #000; /* Text color */
+    padding: 10px 20px; /* Adjust padding for button size */
+    text-decoration: none; /* Removes underline */
+    font-size: 16px; /* Adjust text size */
+    border-radius: 5px;
+}
+
+footer{
+    padding-top: 20px;
+}
